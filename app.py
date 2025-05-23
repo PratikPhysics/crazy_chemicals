@@ -10,7 +10,7 @@ if not api_key:
     st.stop()
 
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-2.0-flas")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Sample elements list
 elements = [
