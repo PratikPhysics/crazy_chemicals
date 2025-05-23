@@ -17,7 +17,7 @@ elements = [
     "H", "O", "Na", "Cl", "C", "N", "Fe", "Cu", "Zn", "S"
 ]
 
-st.title("🔬 Chemical Reaction Generator (Text-Based)")
+st.title("🔬 Chemical Reaction Generator (Text-Based) By Pratik 😎")
 st.markdown("Select elements from the periodic table to generate chemical reactions using Google Gemini.")
 
 selected_elements = st.multiselect("Choose Elements", elements)
